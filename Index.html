@@ -5,8 +5,10 @@
 	<meta charset="utf-8">
 </head>
 <body>
-	<header><!--Header-->
-		<figure> <!--Logotipo--><!--Permite contener varias img-->
+	<header id="header"><!--Header-->
+		<!--id es unico se invoca con el #(nombre id)-->
+		<figure> <!--Logotipo-->
+			<!--Permite contener varias img-->
 			<img src="Imagenes/invie.png" width="186" height="60" alt="Invie Logotipo">
 			<!--SRC con la ruta o url de la imagen-->
 			<!--width  Ancho de la imagen-->
@@ -16,20 +18,24 @@
 		<nav><!--Menu-->
 			<ul><!--Listas Desordenada-->
 				<li><!--Elemento de la lista-->
-					<a href="">Home</a>				
+					<a href="index.html">Home</a>				
 				</li>
 				<li><!--Elemento de la lista-->
-					<a href="">Precios</a>				
+					<a href="#guitarras">Guitarras</a>				
+				</li>
+				<li><!--Elemento de la lista-->
+					<a href="precios.html">Precios</a>				
 				</li>
 			</ul>
 		</nav>
 	</header>
-	<section><!--Portada--><!--Determina una seccion generica-->
+	<section id="portada"><!--Portada-->
+		<!--Determina una seccion generica-->
 		<h1>Guitarras inviesibles</h1><!--Titulo-->
 		<h3>Sé la estrella de rock que siempre quisiste ser</h3><!--Resumen-->
 		<button>Conoce mas</button><!--Boton-->
 	</section>
-	<section><!--Guitarras 1-->
+	<section id="guitarras"><!--Guitarras 1-->
 		<h2>Nuestras Guitarras</h2><!--Titulo-->
 		<!--Contenido dentro de section-->
 		<article><!--Guitarra-->
