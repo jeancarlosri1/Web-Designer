@@ -3,9 +3,11 @@
 <head>
 	<title>Invie - Tus mejores Guitarras</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/invie.css">
+	<!--Genera conexion entre la hoja de estilos y el html-->
 </head>
 <body>
-	<header id="header"><!--Header-->
+	<header id="header" class="header"><!--Header-->
 		<!--id es unico se invoca con el #(nombre id)-->
 		<figure> <!--Logotipo-->
 			<!--Permite contener varias img-->
@@ -15,7 +17,7 @@
 			<!--height Alto de la imagen-->
 			<!--alt texto que aparece en caso de no cargar la imagen-->
 		</figure>
-		<nav><!--Menu-->
+		<nav class="menu"><!--menu-->
 			<ul><!--Listas Desordenada-->
 				<li><!--Elemento de la lista-->
 					<a href="index.html">Home</a>				
@@ -29,27 +31,27 @@
 			</ul>
 		</nav>
 	</header>
-	<section id="portada"><!--Portada-->
+	<section id="portada" class="portada"><!--Portada-->
 		<!--Determina una seccion generica-->
-		<h1>Guitarras inviesibles</h1><!--Titulo-->
-		<h3>Sé la estrella de rock que siempre quisiste ser</h3><!--Resumen-->
+		<h1 class="titulo">Guitarras inviesibles</h1><!--Titulo-->
+		<h3 class="resumen">Sé la estrella de rock que siempre quisiste ser</h3><!--Resumen-->
 		<button>Conoce mas</button><!--Boton-->
 	</section>
-	<section id="guitarras"><!--Guitarras 1-->
+	<section id="guitarras" class="guitarras"><!--Guitarras 1-->
 		<h2>Nuestras Guitarras</h2><!--Titulo-->
 		<!--Contenido dentro de section-->
-		<article><!--Guitarra-->
+		<article class="guitarra"><!--Guitarra-->
 			<img src="Imagenes/invie-acustica.png" alt="Guitarra Invie Acustica" width="200">
-			<h3>Invie Acustica</h3>
+			<h3 class="title-b">Invie Acustica</h3>
 			<ol><!--Listas Ordenadas-->
 				<li>Estilo vintage</li>
 				<li>Madera Pura</li>
 				<li>Incluye estuche invisible de aluminio</li>
 			</ol>
 		</article>
-		<article><!--Guitarra 2--><!--Contenido dentro de section-->
+		<article class="guitarra"><!--Guitarra 2--><!--Contenido dentro de section-->
 			<img src="Imagenes/invie-classic.png" alt="Guitarra Invie Classic" width="200">
-			<h3>Invie Classic</h3>
+			<h3 class="title-b">Invie Classic</h3>
 			<ol><!--Listas Ordenadas-->
 				<li>Estilo vintage</li>
 				<li>Liviana</li>
