@@ -24,7 +24,6 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0px;
 	margin-top: 70px;
-
 }
 .resumen{
 	font-size: 24px;
@@ -36,8 +35,6 @@ body{
 }
 .guitarras{
 	color: #1F313C;
-	width: 800px;
-	margin: auto;
 }
 .guitarras h2{
 	font-family: 'Montserrat', sans-serif;
@@ -47,8 +44,6 @@ body{
 	background-image: url('../imagenes/background.png');
 	color: white;
 	padding: 20px;
-	width: 800px;
-	margin: auto;
 }
 
 .portada button{
@@ -66,8 +61,29 @@ body{
 .logotipo{
 	display: inline-block;
 }
-
-.header{
+.contenedor{
 	width: 800px;
-	margin: auto;
+	margin: auto;	
+}
+.right{
+	float: right;
+}
+.left{
+	float: left;
+}
+.guitarra{
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+	border: 1px solid #1F313C;
+}
+
+.guitarra{
+	padding: 0;
+}
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+.contenedor-guitarra-b{
+	margin-left: 370px;
 }
